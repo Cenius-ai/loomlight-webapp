@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Packaging leftovers from `pip install -e .`
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test caches
+.pytest_cache/
+.coverage
+
+# Local environment (never commit real values; .env.example is the template)
+.env
+
+# Loomlight passphrase sidecars are local to your machine
+*.json.lock
+
+# Drafts you render out
+*.txt

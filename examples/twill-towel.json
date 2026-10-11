@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "name": "twill-towel",
+  "structure": "twill",
+  "shafts": 4,
+  "treadles": 4,
+  "threading": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "treadling": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "tieup": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "warp": {
+    "stripes": [
+      {
+        "color": "red",
+        "count": 2
+      },
+      {
+        "color": "blue",
+        "count": 2
+      }
+    ]
+  },
+  "weft": {
+    "picks": [
+      {
+        "color": "white",
+        "count": 4
+      }
+    ]
+  },
+  "dimensions": {
+    "units": "in",
+    "width_in": 16.0,
+    "length_in": 40.0,
+    "epi": 20.0,
+    "ppi": 16.0,
+    "take_up_pct": 12.0,
+    "loom_waste_in": 18.0,
+    "weft_waste_pct": 8.0
+  }
+}

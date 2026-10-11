@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loomlight"
+version = "1.0.0"
+description = "Weaving draft designer, warp and weft colour planner and yardage estimator (standard library only)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+# Optional convenience: `pip install .` puts the `loomlight` command on PATH.
+# The tool runs with no installation at all: python3 loomlight.py --help
+[project.scripts]
+loomlight = "loomlight:main"
+
+[tool.setuptools]
+py-modules = ["loomlight"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

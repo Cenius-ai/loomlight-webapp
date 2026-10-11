@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "name": "plain-scarf",
+  "structure": "plain",
+  "shafts": 4,
+  "treadles": 2,
+  "threading": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "treadling": [
+    1,
+    2
+  ],
+  "tieup": [
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      true
+    ]
+  ],
+  "warp": {
+    "stripes": [
+      {
+        "color": "blue",
+        "count": 4
+      }
+    ]
+  },
+  "weft": {
+    "picks": [
+      {
+        "color": "white",
+        "count": 2
+      }
+    ]
+  },
+  "dimensions": {
+    "units": "in",
+    "width_in": 8.5,
+    "length_in": 68.0,
+    "epi": 10.0,
+    "ppi": 8.0,
+    "take_up_pct": 10.0,
+    "loom_waste_in": 24.0,
+    "weft_waste_pct": 6.0
+  }
+}
